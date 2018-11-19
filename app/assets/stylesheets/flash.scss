@@ -1,0 +1,18 @@
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.alert-success, .alert-notice {
+  color: green;
+  background-color: white;
+  border-color: #c3e6cb;
+}
+
+.alert-error, .alert-alert {
+  color: red;
+  background-color: white;
+  border-color: #f5c6cb;
+}
